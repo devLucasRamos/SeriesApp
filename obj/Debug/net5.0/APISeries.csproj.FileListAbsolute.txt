@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.exe
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.deps.json
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.runtimeconfig.json
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.runtimeconfig.dev.json
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.dll
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\ref\APISeries.dll
+C:\Users\User\source\repos\APISeries\APISeries\bin\Debug\net5.0\APISeries.pdb
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.AssemblyInfo.cs
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.dll
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\ref\APISeries.dll
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.pdb
+C:\Users\User\source\repos\APISeries\APISeries\obj\Debug\net5.0\APISeries.genruntimeconfig.cache
