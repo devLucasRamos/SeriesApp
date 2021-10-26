@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WebSeries.Interfaces
+namespace Interfaces
 {
     public interface IRepository<T>
     {

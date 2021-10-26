@@ -1,7 +1,7 @@
 ﻿using System;
-using WebSeries.Enum;
+using Enum;
 
-namespace WebSeries.Entity
+namespace Entity
 {
     public class Serie : EntityBase
     {
@@ -12,9 +12,9 @@ namespace WebSeries.Entity
 
         public bool Excluido { get; set; }
 
-        public Serie(int Id, Genero genero, string titulo, string descricao, int ano)
+        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
-            this.Id = Id;
+            this.Id = id;
             Genero = genero;
             Titulo = titulo;
             Descricao = descricao;

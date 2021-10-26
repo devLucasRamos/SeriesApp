@@ -1,4 +1,4 @@
-﻿namespace WebSeries.Entity
+﻿namespace Entity
 {
     public abstract class EntityBase
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WebSeries.Interfaces;
+using Interfaces;
 
-namespace WebSeries.Entity
+namespace Entity
 {
     public class SerieRepository : IRepository<Serie>
     {

@@ -1,4 +1,4 @@
-﻿namespace WebSeries.Enum
+﻿namespace Enum
 {
     public enum Genero
     {
