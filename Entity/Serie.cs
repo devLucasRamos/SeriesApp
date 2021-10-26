@@ -27,7 +27,8 @@ namespace Entity
             return "Genero: " + Genero + Environment.NewLine +
                    "Titulo: " + Titulo + Environment.NewLine +
                    "Descricao: " + Descricao + Environment.NewLine +
-                   "Ano de Inicio: " + Ano;
+                   "Ano de Inicio: " + Ano+
+                   "Excluido: "+ Excluido;
         }
 
         public string RetornaTitulo()
@@ -35,6 +36,10 @@ namespace Entity
             return Titulo;
         }
         public int RetornaId()
+        {
+            return Id;
+        }
+        public int RetornaExcluido()
         {
             return Id;
         }

@@ -5,7 +5,7 @@ namespace Entity
 {
     public class SerieRepository : IRepository<Serie>
     {
-        private List<Serie> listaSerie = new List<Serie>();
+        private readonly List<Serie> listaSerie = new();
 
         public void Atualiza(int id, Serie objeto)
         {

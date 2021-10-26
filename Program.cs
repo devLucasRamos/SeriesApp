@@ -2,11 +2,11 @@
 using System;
 using Enum;
 
-namespace Series
+namespace APISeries
 {
 	class Program
 	{
-		static SerieRepository repository = new SerieRepository();
+		static readonly SerieRepository repository = new();
 		static void Main(string[] args)
 		{
 			string opcaoUsuario = ObterOpcaoUsuario();
@@ -32,10 +32,7 @@ namespace Series
 						break;
 					case "C":
 						Console.Clear();
-						break;
-
-					default:
-						throw new ArgumentOutOfRangeException();
+						break;                 
 				}
 
 				opcaoUsuario = ObterOpcaoUsuario();
@@ -84,7 +81,7 @@ namespace Series
 			Console.Write("Digite a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
-			Serie atualizaSerie = new Serie(id: indiceSerie,
+			Serie atualizaSerie = new (id: indiceSerie,
 										genero: (Genero)entradaGenero,
 										titulo: entradaTitulo,
 										ano: entradaAno,
@@ -106,7 +103,7 @@ namespace Series
 
 			foreach (var serie in lista)
 			{
-								Console.WriteLine("#ID {0}: - {1} {2}", serie.RetornaId(), serie.RetornaTitulo());
+                Console.WriteLine("#ID {0}: - {1} {2}", serie.RetornaId(), serie.RetornaTitulo());
 			}
 		}
 
@@ -130,7 +127,7 @@ namespace Series
 			Console.Write("Digite a Descrição da Série: ");
 			string entradaDescricao = Console.ReadLine();
 
-			Serie novaSerie = new Serie(id: repository.ProximoId(),
+			Serie novaSerie = new (id: repository.ProximoId(),
 										genero: (Genero)entradaGenero,
 										titulo: entradaTitulo,
 										ano: entradaAno,
